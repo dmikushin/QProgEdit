@@ -64,8 +64,8 @@ from QProgEdit.py3compat import *
 from qtpy.QtCore import QCoreApplication
 _ = lambda s: QCoreApplication.translate(u'qprogedit', s)
 
-import QProgEdit._qeditorconst as QEditorConst
-import QProgEdit._qcolorscheme as QColorScheme
+from QProgEdit._qeditorconst import QEditorConst
+from QProgEdit._qcolorscheme import QColorScheme
 from QProgEdit._quiloader import QUiLoader
 from QProgEdit._qsymboltreewidgetitem import QSymbolTreeWidgetItem
 from QProgEdit._qeditorcfg import QEditorCfg

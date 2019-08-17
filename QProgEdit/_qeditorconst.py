@@ -17,9 +17,11 @@ You should have received a copy of the GNU General Public License
 along with QProgEdit.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-languages = [
-	u'Text',
-	u'Python',
-	u'JavaScript',
-	u'OpenSesame'
-	]
+class QEditorConst:
+
+	languages = [
+		u'Text',
+		u'Python',
+		u'JavaScript',
+		u'OpenSesame'
+		]
